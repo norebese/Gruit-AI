@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.top-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.top-nav a i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.top-nav img {
+    height: 30px;
+    width: auto;
+}
+
+
+.bottom-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.bottom-nav a {
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    flex: 1;
+}
+
+.bottom-nav a i {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.blinking-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    /* Adjust the size to match your desired font size */
+}
+
+.bottom-nav .home-logo {
+    position: absolute;
+    bottom: 8px;
+    /* Adjusted position */
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    /* Adjust height as needed */
+    width: auto;
+}
+
+.container {
+    padding: 20px;
+    flex-grow: 1;
+}
+.detail {
+    font-weight: bold;
+}
+.container p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+.image-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-placeholder {
+    width: 120px;
+    height: 80px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 30px;
+}
+
+.status {
+    font-size: 18px;
+    color: #333;
+    margin-right: 30px;
+}
+
+.status-good {
+    background-color: #28A745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.quality-info,
+.nutrition-info {
+    margin-top: 20px;
+}
+
+.quality-info p,
+.nutrition-info p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    margin-left: 30px;
+}
+.quality-info span,
+.nutrition-info span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    margin-right: 30px;
+}
+
+.value {
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}

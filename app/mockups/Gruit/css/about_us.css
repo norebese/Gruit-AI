@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KCC-Ganpan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto; /* 스크롤 가능하게 만듦 */
+    background-color: #f2f2f2;
+}
+
+.top-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.top-nav a i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.top-nav img {
+    height: 30px; /* Adjust the logo size as needed */
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the grid vertically */
+    align-items: center; /* Center the grid horizontally */
+    padding: 20px;
+    flex-grow: 1; /* Take up available space */
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+.bottom-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.bottom-nav a {
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    flex: 1;
+}
+
+
+.bottom-nav a i {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.blinking-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Adjust the size to match your desired font size */
+}
+.bottom-nav .home-logo {
+    position: absolute;
+    bottom: 8px; /* Adjusted position */
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px; /* Adjust height as needed */
+    width: auto;
+}
+.LOGO {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;  
+}
+.content {
+    align-items: center;
+    text-align: center;
+}
+.content>p {
+    color: #1D2B24;
+}
+
+.content-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-top: -30px;
+}
+
+.extra-content {
+    background-color: #5E7C5D;
+    padding: 20px;
+    text-align: center;
+}
+.font1 {
+    font-family: 'GowunDodum-Regular';
+    color: #1D2B24;
+}
+.font3 {
+    font-family: 'GowunDodum-Regular';
+    color: #1D2B24;
+}
+.font2 {
+    font-family: 'TheJamsil5Bold';
+    color: #d9d9d9;
+}
+.arrow-down {
+    width: 20px; /* 원하는 크기로 설정 */
+}

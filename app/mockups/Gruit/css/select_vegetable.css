@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.top-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.top-nav a i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.top-nav img {
+    height: 30px; /* Adjust the logo size as needed */
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the grid vertically */
+    align-items: center; /* Center the grid horizontally */
+    padding: 20px;
+    flex-grow: 1; /* Take up available space */
+    margin-top: -70px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 columns of equal width */
+    gap: 15px; /* Adjusts space between the buttons */
+    justify-content: center; /* Center the grid horizontally */
+    margin-top: 50px;
+}
+
+.btn {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center text inside the button horizontally */
+    align-items: center; /* Center text inside the button vertically */
+    flex-direction: column;
+    width: 150px; /* Set button width */
+    height: 150px; /* Set button height */
+    border-radius: 18px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background-color: white; /* Default background color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1); /* Add shadow for the 3D effect */
+}
+
+.btn-clicked {
+    background-color: #5d7c5d !important; /* Color change on click */
+}
+
+.bottom-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.bottom-nav a {
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    flex: 1;
+}
+
+
+.bottom-nav a i {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.blinking-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Adjust the size to match your desired font size */
+}
+.bottom-nav .home-logo {
+    position: absolute;
+    bottom: 8px; /* Adjusted position */
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px; /* Adjust height as needed */
+    width: auto;
+}
+.btn > img {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    width: 120px;
+}
+.btn > p {
+    font-weight: bold;
+}

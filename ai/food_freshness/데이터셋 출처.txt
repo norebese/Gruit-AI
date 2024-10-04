@@ -1,0 +1,2 @@
+https://universe.roboflow.com/brac-university-v9w2y/fruit-classification-vgg
+중 사과 데이터만 증강해서 사용 총 6030개 이미지

@@ -1,0 +1,64 @@
+@import url('https://fastly.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css');
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffffff;
+            position: relative;
+        }
+
+        .gruit-text {
+            font-family: 'Wanted Sans', sans-serif;
+            color: #1D2B24;
+            font-size: 15px; /* 글자 크기 */
+            font-weight: bold;
+            letter-spacing: 0px; /* 초기 상태에서 글자 간격 없음 */
+            animation: spacingAnimation 2s ease forwards; /* 애니메이션 적용 */
+            position: relative;
+        }
+
+        .logo-container {
+            position: absolute;
+            top: 50%; /* 중앙에 위치시키기 */
+            left: 50%; /* 중앙에 위치시키기 */
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .logo {
+            position: relative;
+            display: inline-block;
+        }
+        .G_LOGO {
+            width: 120px;
+            height: 100px;
+            margin-left: -15px;
+        }
+        .leaf {
+            position: absolute;
+            top: 0px; /* G 위로 위치 조정 */
+            left: -7px; /* G 위로 위치 조정 */
+            width: 30px; /* 이미지 크기 조절 */
+            height: auto;
+            animation: shakeAnimation 0.5s infinite; /* 애니메이션 적용 */
+        }
+
+        @keyframes spacingAnimation {
+            0% {
+                letter-spacing: 0px; /* 처음에 글자 간격 */
+            }
+            100% {
+                letter-spacing: 10px; /* 애니메이션 후 글자 간격 추가 */
+            }
+        }
+
+        @keyframes shakeAnimation {
+            0% { transform: translate(0px, 0px) rotate(0deg); }
+            25% { transform: translate(-2px, 2px) rotate(-3deg); }
+            50% { transform: translate(2px, -2px) rotate(3deg); }
+            75% { transform: translate(-2px, 2px) rotate(-3deg); }
+            100% { transform: translate(0px, 0px) rotate(0deg); }
+        }
