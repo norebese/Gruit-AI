@@ -9,7 +9,7 @@
 ### 메인화면(대분류 선택)
 <table>
   <tr>
-    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit/blob/main/app/readme_img/1.png" alt="이미지 설명" width="300"></td>
+    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit-AI/blob/main/app/readme_img/1.png" alt="이미지 설명" width="300"></td>
     <td style="width: 500px;"> 1. 과일, 채소, 육류 중 품질을 확인하고 싶은 식자재를 선택할 수 있습니다.</td>
   </tr>
 </table>
