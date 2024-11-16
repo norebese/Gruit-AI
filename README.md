@@ -17,7 +17,7 @@
 ### 소분류 선택 화면
 <table>
   <tr>
-    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit/blob/main/app/readme_img/2.png?raw=true" alt="이미지 설명" width="300"></td>
+    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit-AI/blob/main/app/readme_img/2.png" alt="이미지 설명" width="300"></td>
     <td style="width: 500px;"> 2. 선택한 식자재의 세부항목을 선택할 수 있습니다.</td>
   </tr>
 </table>
@@ -25,7 +25,7 @@
 ### 이미지 등록 화면
 <table>
   <tr>
-    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit/blob/main/app/readme_img/3.png?raw=true" alt="이미지 설명" width="300"></td>
+    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit-AI/blob/main/app/readme_img/3.png" alt="이미지 설명" width="300"></td>
     <td style="width: 500px;"> 3. 사진 촬영 또는 앨범에서 식자재의 사진을 등록 할 수 있습니다 </td>
   </tr>
 </table>
@@ -33,7 +33,7 @@
 ### 이미지 업로드 화면
 <table>
   <tr>
-    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit/blob/main/app/readme_img/4.png?raw=true" alt="이미지 설명" width="300"></td>
+    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit-AI/blob/main/app/readme_img/4.png" alt="이미지 설명" width="300"></td>
     <td style="width: 500px;"> 4. 업로드가 성공한 후 확인 버튼을 누르면 '이미지 업로드 성공' 표시와 함께 결과 페이지로 넘어가게 됩니다. <br>만약 업로드 한 이미지에 탐지된 객체가 여럿이라면 그 숫자만큼 분석 결과가 생성됩니다.</td>
   </tr>
 </table>
@@ -41,7 +41,7 @@
 ### 분석 결과 화면
 <table>
   <tr>
-    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit/blob/main/app/readme_img/5.png?raw=true" alt="이미지 설명" width="300"></td>
+    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit-AI/blob/main/app/readme_img/5.png" alt="이미지 설명" width="300"></td>
     <td style="width: 500px;"> 5. 결과 페이지에서 식자제 판별 정보를 확인할 수 있으며, 아래로 스크롤하면 더 자세한 정보를 볼 수 있습니다.</td>
   </tr>
 </table>
@@ -49,7 +49,7 @@
 ### 분석 결과 상세 화면
 <table>
   <tr>
-    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit/blob/main/app/readme_img/6.png?raw=true" alt="이미지 설명" width="300"></td>
+    <td style="width: 300px;"><img src="https://github.com/norebese/Gruit-AI/blob/main/app/readme_img/6.png" alt="이미지 설명" width="300"></td>
     <td style="width: 500px;"> 6. 식자재에 대한 품질정보, 영양정보를 확인할 수 있습니다. <br>외부 API fatSecret을 통해 특정 식자제의 영양 정보를 불러올 수 있습니다.</td>
   </tr>
 </table>
@@ -80,7 +80,7 @@
 * 이종현
 
 ## 개발 도구
-<img src="https://github.com/norebese/Gruit/blob/main/app/readme_img/tools.png?raw=true" height="300">
+<img src="https://github.com/norebese/Gruit-AI/blob/main/app/readme_img/tools.png" height="300">
 
 `Communication`
 <img src="https://img.shields.io/badge/notion-000000?style=flat-square&logo=notion&logoColor=white">
